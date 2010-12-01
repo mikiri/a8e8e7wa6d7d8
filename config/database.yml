@@ -37,15 +37,15 @@ development:
 test:
   adapter: postgresql
   encoding: utf8
-  database: sample_app_development
+  database: sample_app_test
   pool: 5
   username: postgres
-  password:1f2g3h4j
+  password: 1f2g3h4j
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: sample_app_production
+  database: sample_app_development
   pool: 5
-  username: sample_app
-  password:
+  username: postgres
+  password: 1f2g3h4j
